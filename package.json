@@ -1,7 +1,7 @@
 {
-	"name": "fivem-typescript-boilerplate",
-	"author": "Overextended",
-	"version": "0.0.0",
+	"name": "mango-typescript-template",
+	"author": "BuffsOverNexus",
+	"version": "1.0.0",
 	"license": "",
 	"description": "",
 	"type": "module",
@@ -12,14 +12,6 @@
 		"format": "pnpm biome format --write",
 		"lint": "pnpm biome lint --write"
 	},
-	"keywords": [
-		"fivem"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/communityox/fivem-typescript-boilerplate.git"
-	},
-	"bugs": "https://github.com/communityox/fivem-typescript-boilerplate/issues",
 	"devDependencies": {
 		"@citizenfx/client": "latest",
 		"@citizenfx/server": "latest",
