@@ -1,3 +1,7 @@
+@import "tailwindcss";
+@import "primereact/resources/themes/arya-orange/theme.css";
+@import "primeicons/primeicons.css";
+
 body {
   height: 100vh;
   user-select: none;
@@ -10,20 +14,4 @@ body {
 
 #root {
   height: 100%;
-}
-
-.boilerplate-wrapper {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* padding: 16px; */
-  flex-direction: column;
-  /* background-color: #22232c; */
-}
-
-.boilerplate-modal-container {
-  background-color: #22232c;
-  padding: 16px;
-  color: white;
 }

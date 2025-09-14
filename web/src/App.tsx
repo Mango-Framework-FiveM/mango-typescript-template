@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { isEnvBrowser } from './utils/misc';
 import { useNuiEvent } from './hooks/useNuiEvent';
-import { Button } from '@mui/material';
+import { Button } from 'primereact/button';
 
 function App() {
   const [visible, setVisible] = useState(isEnvBrowser());
@@ -13,9 +13,7 @@ function App() {
   return (
     <>
       {visible && (
-        <Button variant="contained" color="primary">
-          Increment
-        </Button>
+        <Button>Test</Button>
       )}
     </>
   );

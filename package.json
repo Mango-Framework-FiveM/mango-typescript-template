@@ -28,13 +28,12 @@
 	"dependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@communityox/ox_lib": "latest",
-		"@emotion/react": "^11.14.0",
-		"@emotion/styled": "^11.14.1",
-		"@mui/icons-material": "^7.3.2",
-		"@mui/material": "^7.3.2",
 		"@nativewrappers/fivem": "latest",
+		"@tailwindcss/vite": "^4.1.13",
+		"primeicons": "^7.0.0",
+		"primereact": "^10.9.7",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
-		"react-is": "18.3.1"
+		"tailwindcss": "^4.1.13"
 	}
 }
