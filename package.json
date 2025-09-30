@@ -1,6 +1,6 @@
 {
 	"name": "mango-typescript-template",
-	"author": "BuffsOverNexus",
+	"author": "BuffsOverNexus, Overextended, CommunityOx",
 	"version": "1.0.0",
 	"license": "",
 	"description": "",
@@ -21,9 +21,10 @@
 		"@types/react": "^18.3.18",
 		"@types/react-dom": "^18.3.5",
 		"@vitejs/plugin-react": "^4.3.4",
-		"@tailwindcss/vite": "^4.1.13",
-		"tailwindcss": "^4.1.13",
+		"autoprefixer": "^10.4.21",
 		"esbuild": "^0.25.0",
+		"postcss": "^8.5.6",
+		"tailwindcss": "3",
 		"typescript": "^5.8.2",
 		"vite": "^5.4.14"
 	},
@@ -31,6 +32,7 @@
 		"@biomejs/biome": "^1.9.4",
 		"@communityox/ox_lib": "latest",
 		"@nativewrappers/fivem": "latest",
+		"@tailwindcss/postcss": "^4.1.13",
 		"primeicons": "^7.0.0",
 		"primereact": "^10.9.7",
 		"react": "^18.3.1",
